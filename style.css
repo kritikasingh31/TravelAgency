@@ -8,6 +8,19 @@
   font-style: normal;
 }
 
+elements.style {
+    background: url(Img/Travel.jpg);
+    background-image: url(assets/img/slider/slider-2.jpg);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
 body {
     font-family: var(--body-font);
     font-style: normal;
