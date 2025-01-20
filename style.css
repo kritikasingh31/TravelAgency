@@ -8,15 +8,65 @@
   font-style: normal;
 }
 
-element.style {
-    background: url(Img/Travel.jpg);
-    background-image: url(assets/img/slider/slider-2.jpg);
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
+body {
+    font-family: var(--body-font);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--body-text-color);
+    line-height: 1.8;
+}
+
+/* General Header Styling */
+.header {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 0; /* Add vertical spacing */
+    border-bottom: 1px solid #ddd; /* Subtle bottom border */
+}
+
+/* Navigation Bar */
+.main-navigation .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and contact info */
+}
+
+/* Logo Styling */
+.navbar-brand img {
+    height: 60px; /* Adjust the logo size */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Contact Information Wrapper */
+.navbar-brand1 {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Default text color */
+}
+
+/* Icon Styling */
+.testimonial-author-img i {
+    font-size: 20px; /* Adjust icon size */
+    color: #007bff; /* Blue color for the phone icon */
+    margin-right: 10px; /* Spacing between icon and text */
+}
+
+/* Phone Number Styling */
+.testimonial-author-info p {
+    margin: 0; /* Remove default margin */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    color: #000; /* Black text color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 40px; /* Smaller logo for mobile screens */
+    }
+
+    .testimonial-author-info p {
+        font-size: 14px; /* Smaller font size for mobile screens */
+    }
 }
